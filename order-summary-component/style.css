@@ -1,0 +1,129 @@
+@font-face {
+    font-family: MyFont;
+    src: url('https://fonts.google.com/specimen/Red+Hat+Display');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* ### Primary */
+
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+
+    /* ### Neutral */
+
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+    
+    background-image: url('./images/pattern-background-desktop.svg');
+    width: 100%;
+}
+
+.card{
+    background-image: url('./images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#music{
+    margin-bottom: 10px;
+    align-items: baseline;
+}
+
+.annual-plan-text{
+    font-weight: bold;
+}
+
+.order{
+    width: 100%;
+    margin-top: 160px;
+    padding: 30px 40px;
+}
+
+.text{
+    margin-top: 20px;
+    color: grey;
+}
+
+.plan{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-between;
+    vertical-align: center;
+    /* align-items: baseline; */
+    padding: 10px;
+}
+
+.cancel{
+    color: var(--Desaturated-blue);
+    font-weight: 550;
+
+}
+
+.annual-plan{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.change a{
+    display: flex;
+    align-items: baseline;
+    margin-top: 9px;
+    margin-left: 40px;
+    color: blue !important;
+    font-weight: bold;
+}
+
+.annual-plan-text{
+    margin-top: 5px;
+}
+
+.change a:hover{
+    color: #000 !important;
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background: var(--Bright-blue);
+    width: 260px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size:bold;
+    border:none;
+    outline:none;
+    color: var(--Pale-blue);
+}
+
+button:hover{
+    background: rgb(53, 63, 200);
+}
+
+
+
+
